@@ -1,20 +1,43 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-b5a92993d8b19688.js",
+      "static/chunks/23-a8916a6d8470b16f.js",
+      "static/chunks/main-app-b76aa34422bf0854.js",
+      "static/chunks/app/_not-found/page-29a638a720c32a03.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-b5a92993d8b19688.js",
+      "static/chunks/23-a8916a6d8470b16f.js",
+      "static/chunks/main-app-b76aa34422bf0854.js",
+      "static/css/b3401b8721695d4d.css",
+      "static/chunks/app/layout-fc434c3352262a9f.js"
     ],
     "/[category]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[category]/page.js"
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-b5a92993d8b19688.js",
+      "static/chunks/23-a8916a6d8470b16f.js",
+      "static/chunks/main-app-b76aa34422bf0854.js",
+      "static/chunks/316-69a325ca93e25f53.js",
+      "static/chunks/app/[category]/page-469d32377a1bd527.js"
+    ],
+    "/article/[id]/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-b5a92993d8b19688.js",
+      "static/chunks/23-a8916a6d8470b16f.js",
+      "static/chunks/main-app-b76aa34422bf0854.js",
+      "static/chunks/316-69a325ca93e25f53.js",
+      "static/chunks/app/article/[id]/page-936828e6b2a50c26.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-b5a92993d8b19688.js",
+      "static/chunks/23-a8916a6d8470b16f.js",
+      "static/chunks/main-app-b76aa34422bf0854.js",
+      "static/chunks/316-69a325ca93e25f53.js",
+      "static/chunks/app/page-538df076bbed22c2.js"
     ]
   }
 }
