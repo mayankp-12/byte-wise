@@ -114,4 +114,30 @@ export const articles: Article[] = [
       <p>By integrating vertical forests and natural ventilation systems into the very core of these structures, urban designers are not just reducing carbon footprints—they are improving the mental well-being of the people who live and work within them.</p>
     `,
   },
+  {
+    id: "7",
+    title: "Quantum Computing: The Next Frontier",
+    excerpt: "Why the race for quantum supremacy is heatings up and what it means for global security.",
+    category: "Technology",
+    author: "Jane Doe",
+    date: "March 28, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1000&auto=format&fit=crop",
+    content: `
+      <p>Quantum computing is no longer just a theoretical concept. Major tech giants are now reporting significant progress in achieving stable qubits and error correction.</p>
+      <h3>The End of Traditional Encryption?</h3>
+      <p>As quantum computers become more powerful, they threaten the very foundations of our current encryption standards. The world is now racing to develop 'quantum-resistant' cryptography.</p>
+    `,
+  },
+  {
+    id: "8",
+    title: "The Rise of Neo-Banks",
+    excerpt: "How digital-only financial institutions are disrupting the traditional banking sector in 2026.",
+    category: "Business",
+    author: "John Smith",
+    date: "March 27, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1550565118-3d1428df7305?q=80&w=1000&auto=format&fit=crop",
+    content: `
+      <p>Traditional banks are facing unprecedented competition from agile, mobile-first competitors. These "Neo-Banks" offer lower fees and better user experiences.</p>
+    `,
+  },
 ];

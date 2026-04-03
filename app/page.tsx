@@ -4,6 +4,7 @@ import ArticleCard from "@/components/news/ArticleCard";
 import AdSense from "@/components/ads/AdSense";
 import { articles } from "@/lib/data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const featuredArticle = articles[0];
@@ -76,12 +77,16 @@ export default function Home() {
              <h2 className="text-xs font-black uppercase tracking-[0.2em] mb-6 border-b border-black pb-1">
               Top Categories
             </h2>
-            <div className="space-y-2 mb-12 uppercase text-xs font-bold tracking-widest">
-              {["Technology", "Business", "Politics", "Science", "Finance", "Arts"].map((cat) => (
-                <div key={cat} className="flex justify-between items-center hover:text-newspaper-accent cursor-pointer group">
+             <div className="space-y-2 mb-12 uppercase text-xs font-bold tracking-widest">
+              {["World", "Business", "Tech", "Science", "Health", "Culture"].map((cat) => (
+                <Link 
+                  key={cat} 
+                  href={`/${cat.toLowerCase()}`}
+                  className="flex justify-between items-center hover:text-newspaper-accent cursor-pointer group"
+                >
                   <span>{cat}</span>
                   <span className="text-zinc-400 group-hover:text-newspaper-accent">→</span>
-                </div>
+                </Link>
               ))}
             </div>
 

@@ -22,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-3296442994647860" />
+      </head>
        <body className="antialiased bg-newspaper-bg text-newspaper-text">
         {/* Google AdSense Script Placeholder */}
         <Script
