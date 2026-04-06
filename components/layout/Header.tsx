@@ -10,8 +10,8 @@ export default function Header() {
   });
 
   return (
-    <header className="container mx-auto px-4 pt-6 pb-2 border-b-2 border-black">
-      <div className="flex justify-between items-center text-xs font-bold uppercase tracking-widest mb-4">
+    <header className="container mx-auto px-4 pt-6">
+      <div className="flex justify-between items-center text-xs font-bold uppercase tracking-widest mb-2">
         <span>{currentDate}</span>
         <div className="flex gap-4">
           <Link href="/subscribe" className="hover:underline">
@@ -23,7 +23,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="text-center py-6 mb-4">
+      <div className="text-center py-4 mb-4">
         <h1 className="text-6xl md:text-8xl font-black font-serif tracking-tighter">
           BYTE WIRE
         </h1>

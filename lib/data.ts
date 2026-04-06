@@ -12,6 +12,92 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: "10",
+    title: "Global Summit on AI Regulations Concludes with Historic Treaty",
+    excerpt: "Leaders from 140 nations sign the 'Geneva AI Accord,' establishing the first comprehensive international framework for artificial intelligence governance.",
+    category: "World",
+    author: "David Chen",
+    date: "April 5, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?q=80&w=1000&auto=format&fit=crop",
+    content: `
+      <p>In what is being hailed as the most significant diplomatic achievement of the decade, the Geneva AI Summit concluded today with the signing of a landmark international treaty.</p>
+      
+      <h3>The Geneva AI Accord</h3>
+      <p>The treaty establishes clear red lines for the development of autonomous weapons systems and mandates international cooperation on AI safety research. It also creates a new UN-backed agency, the International Artificial Intelligence Agency (IAIA), tasked with monitoring compliance and sharing critical safety breakthroughs across national borders.</p>
+      
+      <p>While some tech leaders have expressed concerns about potential stifling of innovation, the overwhelming global consensus is that binding regulations are essential to navigate the transformative power of artificial intelligence safely.</p>
+    `,
+  },
+  {
+    id: "11",
+    title: "Breakthrough in Solid-State Batteries Promises 1000-Mile EV Range",
+    excerpt: "A major automotive consortium has successfully mass-produced a next-generation solid-state battery, effectively doubling the range of existing electric vehicles.",
+    category: "Technology",
+    author: "Sarah Jenkins",
+    date: "April 5, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=1000&auto=format&fit=crop",
+    content: `
+      <p>Range anxiety may soon be a relic of the past. Today, a joint venture between leading automakers and materials scientists announced the successful scaling of solid-state battery production.</p>
+      
+      <h3>Paving the Way for Widespread Adoption</h3>
+      <p>These new batteries not only boast a staggering 1000-mile range on a single charge but also operate with a dramatically reduced risk of thermal runaway, making them significantly safer than traditional lithium-ion counterparts. Charging times have also been slashed, with a 10% to 80% charge taking just under 12 minutes.</p>
+      
+      <p>Industry analysts predict this breakthrough will be the catalyst needed to push global EV adoption past the tipping point, accelerating the phase-out of internal combustion engines.</p>
+    `,
+  },
+  {
+    id: "12",
+    title: "Mars Colony 'Ares One' Reaches 500-Day Milestone",
+    excerpt: "The first permanent human settlement on Mars celebrates its 500th day of continuous operation, reporting significant progress in sustainable agriculture.",
+    category: "Science",
+    author: "Dr. Aris Thorne",
+    date: "April 4, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=1000&auto=format&fit=crop",
+    content: `
+      <p>It has been 500 Martian days (sols) since the crew of Ares One touched down and established the first permanent human outpost on the Red Planet. The milestone was marked by a planet-wide broadcast back to Earth.</p>
+      
+      <h3>Farming on the Red Planet</h3>
+      <p>The most significant update came from the colony's agricultural division. The hydroponic bays have not only achieved self-sufficiency but have produced a surplus of crops, including the first Martian-grown strain of resilient wheat. This success in closed-loop life support systems is a critical step towards genuine interplanetary colonization.</p>
+    `,
+  },
+  {
+    id: "13",
+    title: "The 'Slow Web' Movement Gains Mainstream Traction",
+    excerpt: "A growing backlash against algorithmic feeds and rapid-fire content sees millions migrating to minimalist, community-curated digital spaces.",
+    category: "Culture",
+    author: "Maya Patel",
+    date: "April 4, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop",
+    content: `
+      <p>Following years of digital burnout, the 'Slow Web' movement has exploded in popularity. Characterized by chronological feeds, long-form content limits, and algorithm-free discovery, slow web platforms are offering an antidote to the chaotic modern internet.</p>
+      
+      <h3>Reclaiming Attention</h3>
+      <p>Users report significant improvements in mental health and attention spans after abandoning traditional, highly-optimized social networks. This shift is forcing major tech companies to rethink their engagement models as the advertising revenue tied to infinite scrolling begins to wane.</p>
+    `,
+  },
+  {
+    id: "9",
+    title: "AI Breakthrough: New Generative Model Capable of Emotional Reasoning",
+    excerpt: "Researchers unveil a groundbreaking AI model that can understand and simulate nuanced human emotions, sparking a debate on ethical implications.",
+    category: "Technology",
+    author: "Elena Rodriguez",
+    date: "April 6, 2026",
+    imageUrl: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1000&auto=format&fit=crop",
+    isFeatured: true,
+    content: `
+      <p>In a landmark announcement today, leading AI researchers have unveiled a new generative model that goes beyond mimicking text and images; it can demonstrably understand and simulate complex human emotions in its reasoning processes.</p>
+      
+      <h3>The Emotional Turing Test</h3>
+      <p>Dubbed "Sentia-1", the model passed a highly rigorous panel of psychological evaluations designed to measure emotional intelligence, scoring in the 95th percentile compared to human baselines. This leap in capability opens up vast new possibilities for empathetic AI assistants, mental health support bots, and deeply personalized educational tools.</p>
+      
+      <blockquote>
+        "We are no longer just building tools; we are creating digital entities capable of profound empathy. The ethical responsibility this entails is immense."
+      </blockquote>
+      
+      <p>However, the breakthrough has immediately sparked intense debate among ethicists and sociologists. Concerns are mounting over the potential for emotional manipulation, dependency, and the blurring lines between human and machine interaction. As the technology moves from the lab to real-world applications, regulators are under pressure to establish new guidelines for 'emotionally aware' AI systems.</p>
+    `,
+  },
+  {
     id: "1",
     title: "The Future of Advertising in the Age of Generative AI",
     excerpt: "How neural networks and large language models are rewriting the rules of brand engagement and customer personalization.",
