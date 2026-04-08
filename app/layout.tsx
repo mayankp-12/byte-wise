@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
-import "./globals.css";
 import Script from "next/script";
 import React from "react";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const playfair = Playfair_Display({ 
-  subsets: ["latin"], 
-  variable: "--font-playfair" 
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
 });
 
 export const metadata: Metadata = {
   title: "Byte Wire | The Ultimate Newspaper Experience",
-  description: "Get the latest news, business, and technology updates with Byte Wire's premium editorial feel. AdSense ready and fully dynamic.",
+  description:
+    "Get the latest news, business, and technology updates with Byte Wire's premium editorial feel. AdSense ready and fully dynamic.",
 };
 
 export default function RootLayout({
@@ -24,8 +25,12 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <head>
         <meta name="google-adsense-account" content="ca-pub-3296442994647860" />
+        <meta
+          name="google-site-verification"
+          content="6OGhqKMt77-7Ileyy4S7sroiOM8SwEqDJebhT1K6LQ4"
+        />
       </head>
-       <body className="antialiased bg-newspaper-bg text-newspaper-text">
+      <body className="antialiased bg-newspaper-bg text-newspaper-text">
         {/* Google AdSense Script Placeholder */}
         <Script
           async
